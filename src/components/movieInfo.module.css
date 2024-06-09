@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 80%;
+
+  margin: 0 auto;
+}
+
+.container img {
+  width: 100%;
+  max-width: 70%;
+  height: 80%;
+  place-self: start center;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+
+.container img:hover {
+  opacity: 1;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-self: start;
+}
+
+.genres {
+  display: flex;
+  gap: 5px;
+}
+.genres li {
+  padding: 3px 10px;
+  background-color: gray;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.genres li:hover {
+  opacity: 1;
+}
+
+.overview {
+  font-size: 25px;
+}
